@@ -1,12 +1,10 @@
-using ErrorOr;
-using FluentResults;
-using LamilaDinner.Api.Filters;
-using LamilaDinner.Application.Common.Errors;
-using LamilaDinner.Application.Services.Authentication;
+using LamilaDinner.Application.Services.Authentication.Commands.Register;
+using LamilaDinner.Application.Services.Authentication.Common;
+using LamilaDinner.Application.Services.Authentication.Queries;
 using LamilaDinner.Contracts.Authentication;
 using LamilaDinner.Domain.Common.Errors;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using OneOf;
 
 namespace LamilaDinner.Api.Controllers;
 
@@ -14,16 +12,29 @@ namespace LamilaDinner.Api.Controllers;
 [Route("auth")]
 public class AuthenticationController : ApiController
 {
-    private readonly IAuthenticationService _authService;
+    private readonly ISender _mediatR;
 
-    public AuthenticationController(IAuthenticationService authService)
+    public AuthenticationController(IMediator mediatR)
     {
-        _authService = authService;
+        _mediatR = mediatR;
     }
 
     [HttpPost("register")]
-    public IActionResult Register(RegisterRequest request)
+    public async Task<IActionResult> Register(RegisterRequest request)
     {
+        var requestCommand = new RegisterCommand(
+            request.FirstName,
+            request.LastName,
+            request.Email,
+            request.Password);
+
+        var registerResult = await _mediatR.Send(requestCommand);
+
+        return registerResult.Match(
+            authResult => Ok(MapAuthResult(authResult)),
+            errors => Problem(errors));
+
+        #region  Comments
         // OneOf<AuthenticationResult, IError> registerResult = _authService.Register(
         //     request.FirstName,
         //     request.LastName,
@@ -35,15 +46,13 @@ public class AuthenticationController : ApiController
         //     error => Problem(statusCode: (int)error.StatusCode, title: error.ErrorMessage)
         // );
 
-        ErrorOr<AuthenticationResult> registerResult = _authService.Register(
-            request.FirstName,
-            request.LastName,
-            request.Email,
-            request.Password);
+        // ErrorOr<AuthenticationResult> registerResult = _authenticationCommandService.Register(
+        //     request.FirstName,
+        //     request.LastName,
+        //     request.Email,
+        //     request.Password);
 
-        return registerResult.Match(
-            authResult => Ok(MapAuthResult(authResult)),
-            errors => Problem(errors));
+
         // return registerResult.MatchFirst(
         //     authResult => Ok(MapAuthResult(authResult)),
         //     firstError => Problem(statusCode: StatusCodes.Status409Conflict, title: firstError.Description));
@@ -60,6 +69,7 @@ public class AuthenticationController : ApiController
         // }
 
         // return Problem();
+        #endregion
     }
 
     private static AuthenticationResponse MapAuthResult(AuthenticationResult authResult)
@@ -73,17 +83,21 @@ public class AuthenticationController : ApiController
     }
 
     [HttpPost("login")]
-    public IActionResult Login(LoginRequest request)
+    public async Task<IActionResult> Login(LoginRequest request)
     {
-        var authResult = _authService.Login(
+        var query = new LoginQuery(
             request.Email,
             request.Password);
+
+        var authResult = await _mediatR.Send(query);
+
+        if (authResult.IsError && authResult.FirstError == Errors.Authentication.InvalidCredentials)
+        {
+            return Problem(statusCode: StatusCodes.Status401Unauthorized, title: authResult.FirstError.Description);
+        }
 
         return authResult.Match(
             authResult => Ok(MapAuthResult(authResult)),
             errors => Problem(errors));
-        // return authResult.MatchFirst(
-        //     result => Ok(MapAuthResult(result)),
-        //     firstError => Problem(statusCode: StatusCodes.Status409Conflict, title: firstError.Description));
     }
 }

@@ -9,3 +9,15 @@ C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Contracts\obj\Debug\net
 C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Contracts\obj\Debug\net7.0\refint\LamilaDinner.Contracts.dll
 C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Contracts\obj\Debug\net7.0\LamilaDinner.Contracts.pdb
 C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Contracts\obj\Debug\net7.0\ref\LamilaDinner.Contracts.dll
+C:\Users\Boyner\Desktop\Workspaces\LamilaDinner-1\LamilaDinner.Contracts\bin\Debug\net7.0\LamilaDinner.Contracts.deps.json
+C:\Users\Boyner\Desktop\Workspaces\LamilaDinner-1\LamilaDinner.Contracts\bin\Debug\net7.0\LamilaDinner.Contracts.dll
+C:\Users\Boyner\Desktop\Workspaces\LamilaDinner-1\LamilaDinner.Contracts\bin\Debug\net7.0\LamilaDinner.Contracts.pdb
+C:\Users\Boyner\Desktop\Workspaces\LamilaDinner-1\LamilaDinner.Contracts\obj\Debug\net7.0\LamilaDinner.Contracts.csproj.AssemblyReference.cache
+C:\Users\Boyner\Desktop\Workspaces\LamilaDinner-1\LamilaDinner.Contracts\obj\Debug\net7.0\LamilaDinner.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Boyner\Desktop\Workspaces\LamilaDinner-1\LamilaDinner.Contracts\obj\Debug\net7.0\LamilaDinner.Contracts.AssemblyInfoInputs.cache
+C:\Users\Boyner\Desktop\Workspaces\LamilaDinner-1\LamilaDinner.Contracts\obj\Debug\net7.0\LamilaDinner.Contracts.AssemblyInfo.cs
+C:\Users\Boyner\Desktop\Workspaces\LamilaDinner-1\LamilaDinner.Contracts\obj\Debug\net7.0\LamilaDinner.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Boyner\Desktop\Workspaces\LamilaDinner-1\LamilaDinner.Contracts\obj\Debug\net7.0\LamilaDinner.Contracts.dll
+C:\Users\Boyner\Desktop\Workspaces\LamilaDinner-1\LamilaDinner.Contracts\obj\Debug\net7.0\refint\LamilaDinner.Contracts.dll
+C:\Users\Boyner\Desktop\Workspaces\LamilaDinner-1\LamilaDinner.Contracts\obj\Debug\net7.0\LamilaDinner.Contracts.pdb
+C:\Users\Boyner\Desktop\Workspaces\LamilaDinner-1\LamilaDinner.Contracts\obj\Debug\net7.0\ref\LamilaDinner.Contracts.dll

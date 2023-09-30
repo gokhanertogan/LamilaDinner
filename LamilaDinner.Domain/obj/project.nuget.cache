@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "UvgZxZE/bds4wWaW3VONYWkWuuMYUPdDo8ycTP7WoutTLlX2kKa+eVb6AoMkKkkRQl/ezSYH6YRugAoiw93n8w==",
+  "dgSpecHash": "RPgWhNHnDHTsR3d/WG73Nws1CGaUl+3Ryzn1rzxZ99ESVfpEUrbksvCgBDWNgIEWg7DcfCVjw9cgyOuWsgFdgw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Domain\\LamilaDinner.Domain.csproj",
+  "projectFilePath": "c:\\Users\\Boyner\\Desktop\\Workspaces\\LamilaDinner-1\\LamilaDinner.Domain\\LamilaDinner.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Monster\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512"
+    "C:\\Users\\Boyner\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512"
   ],
   "logs": []
 }
