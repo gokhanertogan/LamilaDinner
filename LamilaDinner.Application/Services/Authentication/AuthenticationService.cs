@@ -1,7 +1,9 @@
+using ErrorOr;
 using FluentResults;
 using LamilaDinner.Application.Common.Errors;
 using LamilaDinner.Application.Common.Interfaces.Authentication;
 using LamilaDinner.Application.Common.Interfaces.Persistence;
+using LamilaDinner.Domain.Common.Errors;
 using LamilaDinner.Domain.Entities;
 
 namespace LamilaDinner.Application.Services.Authentication;
@@ -16,16 +18,18 @@ public class AuthenticationService : IAuthenticationService
         _userRepository = userRepository;
     }
 
-    public AuthenticationResult Login(string email, string password)
+    public ErrorOr<AuthenticationResult> Login(string email, string password)
     {
         if (_userRepository.GetUserByEmail(email) is not User user)
         {
-            throw new Exception("User with given email does not exist.");
+            return Errors.Authentication.InvalidCredentials;
+            // throw new Exception("User with given email does not exist.");
         }
 
         if (user.Password != password)
         {
-            throw new Exception("Invalid password");
+            return new[] { Errors.Authentication.InvalidCredentials };
+            // throw new Exception("Invalid password");
         }
 
         var token = _jwtTokenGenerator.GenerateToken(user);
@@ -36,12 +40,13 @@ public class AuthenticationService : IAuthenticationService
         );
     }
 
-    public Result<AuthenticationResult> Register(string firstName, string lastName, string email, string password)
+    public ErrorOr<AuthenticationResult> Register(string firstName, string lastName, string email, string password)
     {
         if (_userRepository.GetUserByEmail(email) is not null)
         {
             //throw new DuplicateEmailException();
-            return Result.Fail<AuthenticationResult>(new[] { new DuplicateEmailError() });
+            // return Result.Fail<AuthenticationResult>(new[] { new DuplicateEmailError() });
+            return Errors.User.DuplicateEmail;
         }
 
         var user = new User

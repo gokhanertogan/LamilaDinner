@@ -1,3 +1,4 @@
+using LamilaDinner.Api.Common.Errors;
 using LamilaDinner.Api.Filters;
 using LamilaDinner.Api.Middleware;
 using LamilaDinner.Application;
@@ -12,7 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 
     builder.Services.AddControllers();
     //builder.Services.AddControllers(options => options.Filters.Add<ErrorHandlingFilterAttribute>());
-    builder.Services.AddSingleton<ProblemDetailsFactory, LamilaDinner.Api.Errors.LamilaDinnerProblemDetailsFactory>();
+    builder.Services.AddSingleton<ProblemDetailsFactory, LamilaDinnerProblemDetailsFactory>();
 }
 
 var app = builder.Build();

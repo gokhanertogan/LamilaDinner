@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6crZigrqL3rkCIgZrOyspz1thL8eUZQzgcNTd4nwOfJUBm/lbPG11mvqvL0h6cimO56srUh74qUMh3svy9IuHQ==",
+  "dgSpecHash": "e2PVdmY5qJ62jjjDYAtiBABYt/aYS7/igWNRZiI8Vzya/lmgozqsAVBmTKB5KaZYH+mVtRivWW2BkVk93/YxVg==",
   "success": true,
   "projectFilePath": "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Api\\LamilaDinner.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Monster\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
     "C:\\Users\\Monster\\.nuget\\packages\\fluentresults\\3.15.2\\fluentresults.3.15.2.nupkg.sha512",
     "C:\\Users\\Monster\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
     "C:\\Users\\Monster\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

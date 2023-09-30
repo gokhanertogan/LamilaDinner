@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yYeYVmMi3rOOOOHqyLtA4opRUkOENoE8fUWxO4WNkH6U7kq3W5E5Jyi4Ly57CeWuqXWquy+YLCvF2kEtHxCGDw==",
+  "dgSpecHash": "2MPErbHsgxnv5klXez088Ic1kMqHQqT4N6CB500xTsNepQy63CMi0wi8yBlCUM6h/VJLNfQITX6VYo9eN8DWEQ==",
   "success": true,
   "projectFilePath": "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Application\\LamilaDinner.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Monster\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
     "C:\\Users\\Monster\\.nuget\\packages\\fluentresults\\3.15.2\\fluentresults.3.15.2.nupkg.sha512",
     "C:\\Users\\Monster\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Monster\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
