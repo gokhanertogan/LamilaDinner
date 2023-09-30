@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Boyner\\Desktop\\Workspaces\\LamilaDinner-1\\LamilaDinner.Domain\\LamilaDinner.Domain.csproj": {}
+    "C:\\Users\\Boyner\\Desktop\\Workspaces\\LamilaDinner-1\\LamilaDinner.Domain\\LamilaDinner.Domain.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Boyner\\Desktop\\Workspaces\\LamilaDinner-1\\LamilaDinner.Domain\\LamilaDinner.Domain.csproj": {
+    "C:\\Users\\Boyner\\Desktop\\Workspaces\\LamilaDinner-1\\LamilaDinner.Domain\\LamilaDinner.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Boyner\\Desktop\\Workspaces\\LamilaDinner-1\\LamilaDinner.Domain\\LamilaDinner.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Boyner\\Desktop\\Workspaces\\LamilaDinner-1\\LamilaDinner.Domain\\LamilaDinner.Domain.csproj",
         "projectName": "LamilaDinner.Domain",
-        "projectPath": "c:\\Users\\Boyner\\Desktop\\Workspaces\\LamilaDinner-1\\LamilaDinner.Domain\\LamilaDinner.Domain.csproj",
+        "projectPath": "C:\\Users\\Boyner\\Desktop\\Workspaces\\LamilaDinner-1\\LamilaDinner.Domain\\LamilaDinner.Domain.csproj",
         "packagesPath": "C:\\Users\\Boyner\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Boyner\\Desktop\\Workspaces\\LamilaDinner-1\\LamilaDinner.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Boyner\\Desktop\\Workspaces\\LamilaDinner-1\\LamilaDinner.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

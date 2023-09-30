@@ -397,8 +397,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\Boyner\\Desktop\\Workspaces\\LamilaDinner-1\\LamilaDinner.Domain\\LamilaDinner.Domain.csproj": {
-              "projectPath": "c:\\Users\\Boyner\\Desktop\\Workspaces\\LamilaDinner-1\\LamilaDinner.Domain\\LamilaDinner.Domain.csproj"
+            "C:\\Users\\Boyner\\Desktop\\Workspaces\\LamilaDinner-1\\LamilaDinner.Domain\\LamilaDinner.Domain.csproj": {
+              "projectPath": "C:\\Users\\Boyner\\Desktop\\Workspaces\\LamilaDinner-1\\LamilaDinner.Domain\\LamilaDinner.Domain.csproj"
             }
           }
         }

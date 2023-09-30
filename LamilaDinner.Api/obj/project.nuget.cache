@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "wf5i6n+jyHtSVD4NIBscpLhg5rQ6m/e9et25rYMw5xCr+ToFfrC7jDq+ShikfToD/JU7DfUpsRxhG44sPYu+3w==",
+  "dgSpecHash": "ZL+/xnJOUOT39vdlUqmM8TlvbeHMazbVAgqo9uR5tw6hNT4aedOGBPsTOvFmTuc4pmU19HfMFGTwfhlh2Js03w==",
   "success": true,
   "projectFilePath": "c:\\Users\\Boyner\\Desktop\\Workspaces\\LamilaDinner-1\\LamilaDinner.Api\\LamilaDinner.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Boyner\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
     "C:\\Users\\Boyner\\.nuget\\packages\\fluentresults\\3.15.2\\fluentresults.3.15.2.nupkg.sha512",
+    "C:\\Users\\Boyner\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
+    "C:\\Users\\Boyner\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512",
+    "C:\\Users\\Boyner\\.nuget\\packages\\mapster.dependencyinjection\\1.0.1\\mapster.dependencyinjection.1.0.1.nupkg.sha512",
     "C:\\Users\\Boyner\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
     "C:\\Users\\Boyner\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Boyner\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",

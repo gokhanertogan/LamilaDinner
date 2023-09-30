@@ -3,6 +3,7 @@ using LamilaDinner.Application.Services.Authentication.Common;
 using LamilaDinner.Application.Services.Authentication.Queries;
 using LamilaDinner.Contracts.Authentication;
 using LamilaDinner.Domain.Common.Errors;
+using MapsterMapper;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,26 +13,23 @@ namespace LamilaDinner.Api.Controllers;
 [Route("auth")]
 public class AuthenticationController : ApiController
 {
-    private readonly ISender _mediatR;
+    private readonly ISender _mediator;
+    private readonly IMapper _mapper;
 
-    public AuthenticationController(IMediator mediatR)
+    public AuthenticationController(IMediator mediator, IMapper mapper)
     {
-        _mediatR = mediatR;
+        _mediator = mediator;
+        _mapper = mapper;
     }
 
     [HttpPost("register")]
     public async Task<IActionResult> Register(RegisterRequest request)
     {
-        var requestCommand = new RegisterCommand(
-            request.FirstName,
-            request.LastName,
-            request.Email,
-            request.Password);
-
-        var registerResult = await _mediatR.Send(requestCommand);
+        var command = _mapper.Map<RegisterCommand>(request);
+        var registerResult = await _mediator.Send(command);
 
         return registerResult.Match(
-            authResult => Ok(MapAuthResult(authResult)),
+            authResult => Ok(_mapper.Map<AuthenticationResponse>(authResult)),
             errors => Problem(errors));
 
         #region  Comments
@@ -85,11 +83,8 @@ public class AuthenticationController : ApiController
     [HttpPost("login")]
     public async Task<IActionResult> Login(LoginRequest request)
     {
-        var query = new LoginQuery(
-            request.Email,
-            request.Password);
-
-        var authResult = await _mediatR.Send(query);
+        var query = _mapper.Map<LoginQuery>(request);
+        var authResult = await _mediator.Send(query);
 
         if (authResult.IsError && authResult.FirstError == Errors.Authentication.InvalidCredentials)
         {
@@ -97,7 +92,7 @@ public class AuthenticationController : ApiController
         }
 
         return authResult.Match(
-            authResult => Ok(MapAuthResult(authResult)),
+            authResult => Ok(_mapper.Map<AuthenticationResponse>(authResult)),
             errors => Problem(errors));
     }
 }

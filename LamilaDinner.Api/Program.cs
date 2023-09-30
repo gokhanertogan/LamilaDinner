@@ -1,19 +1,12 @@
-using LamilaDinner.Api.Common.Errors;
-using LamilaDinner.Api.Filters;
-using LamilaDinner.Api.Middleware;
+using LamilaDinner.Api;
 using LamilaDinner.Application;
 using LamilaDinner.Infrastructure;
-using Microsoft.AspNetCore.Diagnostics;
-using Microsoft.AspNetCore.Mvc.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 {
-    builder.Services.AddApplication()
+    builder.Services.AddPresentation()
+                    .AddApplication()
                     .AddInfrastructure(builder.Configuration);
-
-    builder.Services.AddControllers();
-    //builder.Services.AddControllers(options => options.Filters.Add<ErrorHandlingFilterAttribute>());
-    builder.Services.AddSingleton<ProblemDetailsFactory, LamilaDinnerProblemDetailsFactory>();
 }
 
 var app = builder.Build();
