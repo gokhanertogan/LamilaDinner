@@ -1,0 +1,15 @@
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Application\bin\Debug\net7.0\LamilaDinner.Application.deps.json
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Application\bin\Debug\net7.0\LamilaDinner.Application.dll
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Application\bin\Debug\net7.0\LamilaDinner.Application.pdb
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Application\obj\Debug\net7.0\LamilaDinner.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Application\obj\Debug\net7.0\LamilaDinner.Application.AssemblyInfoInputs.cache
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Application\obj\Debug\net7.0\LamilaDinner.Application.AssemblyInfo.cs
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Application\obj\Debug\net7.0\LamilaDinner.Application.csproj.CoreCompileInputs.cache
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Application\obj\Debug\net7.0\LamilaDinner.Application.dll
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Application\obj\Debug\net7.0\refint\LamilaDinner.Application.dll
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Application\obj\Debug\net7.0\LamilaDinner.Application.pdb
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Application\obj\Debug\net7.0\ref\LamilaDinner.Application.dll
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Application\bin\Debug\net7.0\LamilaDinner.Domain.dll
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Application\bin\Debug\net7.0\LamilaDinner.Domain.pdb
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Application\obj\Debug\net7.0\LamilaDinner.Application.csproj.AssemblyReference.cache
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Application\obj\Debug\net7.0\LamilaDinner.Application.csproj.CopyComplete

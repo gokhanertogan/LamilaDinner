@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "yYeYVmMi3rOOOOHqyLtA4opRUkOENoE8fUWxO4WNkH6U7kq3W5E5Jyi4Ly57CeWuqXWquy+YLCvF2kEtHxCGDw==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Application\\LamilaDinner.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Monster\\.nuget\\packages\\fluentresults\\3.15.2\\fluentresults.3.15.2.nupkg.sha512",
+    "C:\\Users\\Monster\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Monster\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
+    "C:\\Users\\Monster\\.nuget\\packages\\oneof\\3.0.263\\oneof.3.0.263.nupkg.sha512",
+    "C:\\Users\\Monster\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>c0673357-d8ff-49ba-b88a-ce76e5af26e3</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.10" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LamilaDinner.Contracts\LamilaDinner.Contracts.csproj" />
+    <ProjectReference Include="..\LamilaDinner.Application\LamilaDinner.Application.csproj" />
+    <ProjectReference Include="..\LamilaDinner.Infrastructure\LamilaDinner.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LamilaDinner.Api", "LamilaDinner.Api\LamilaDinner.Api.csproj", "{AAAC49CA-7043-4E67-82D0-264E0D7EA6D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LamilaDinner.Application", "LamilaDinner.Application\LamilaDinner.Application.csproj", "{733B355D-C63B-46D7-AC02-1FD133F5460B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LamilaDinner.Contracts", "LamilaDinner.Contracts\LamilaDinner.Contracts.csproj", "{F6886640-1217-4AEF-ACE3-3DFDA183CFA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LamilaDinner.Domain", "LamilaDinner.Domain\LamilaDinner.Domain.csproj", "{1B97905C-0E2F-4203-BD6A-F17531066EA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LamilaDinner.Infrastructure", "LamilaDinner.Infrastructure\LamilaDinner.Infrastructure.csproj", "{CADDC510-5796-4782-9BCF-9C993A18D7F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAAC49CA-7043-4E67-82D0-264E0D7EA6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAAC49CA-7043-4E67-82D0-264E0D7EA6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAAC49CA-7043-4E67-82D0-264E0D7EA6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAAC49CA-7043-4E67-82D0-264E0D7EA6D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{733B355D-C63B-46D7-AC02-1FD133F5460B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{733B355D-C63B-46D7-AC02-1FD133F5460B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{733B355D-C63B-46D7-AC02-1FD133F5460B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{733B355D-C63B-46D7-AC02-1FD133F5460B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6886640-1217-4AEF-ACE3-3DFDA183CFA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6886640-1217-4AEF-ACE3-3DFDA183CFA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6886640-1217-4AEF-ACE3-3DFDA183CFA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6886640-1217-4AEF-ACE3-3DFDA183CFA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B97905C-0E2F-4203-BD6A-F17531066EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B97905C-0E2F-4203-BD6A-F17531066EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B97905C-0E2F-4203-BD6A-F17531066EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B97905C-0E2F-4203-BD6A-F17531066EA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CADDC510-5796-4782-9BCF-9C993A18D7F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CADDC510-5796-4782-9BCF-9C993A18D7F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CADDC510-5796-4782-9BCF-9C993A18D7F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CADDC510-5796-4782-9BCF-9C993A18D7F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
