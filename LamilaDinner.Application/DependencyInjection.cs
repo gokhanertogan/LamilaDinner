@@ -1,3 +1,9 @@
+using System.Reflection;
+using ErrorOr;
+using FluentValidation;
+using LamilaDinner.Application.Common.Behaviors;
+using LamilaDinner.Application.Services.Authentication.Commands.Register;
+using LamilaDinner.Application.Services.Authentication.Common;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -11,6 +17,12 @@ public static class DependencyInjection
         // services.AddScoped<IAuthenticationCommandService,AuthenticationCommandService>();
         // services.AddScoped<IAuthenticationQueryService,AuthenticationQueryService>();
         services.AddMediatR(typeof(DependencyInjection).Assembly);
+        services.AddScoped
+            <IPipelineBehavior<RegisterCommand, ErrorOr<AuthenticationResult>>,
+             ValidateRegisterCommandBehavior>();
+
+        //services.AddScoped<IValidator<RegisterCommand>, RegisterCommandValidator>();     
+        services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
         return services;
     }
 }
