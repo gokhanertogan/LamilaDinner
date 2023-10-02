@@ -6,20 +6,26 @@ using MediatR;
 
 namespace LamilaDinner.Application.Common.Behaviors;
 
-public class ValidateRegisterCommandBehavior : IPipelineBehavior<RegisterCommand, ErrorOr<AuthenticationResult>>
+public class ValidationBehavior<TRequest, TResponse> :
+     IPipelineBehavior<TRequest, TResponse>
+        where TRequest : IRequest<TResponse>
+        where TResponse : IErrorOr
 {
-    private readonly IValidator<RegisterCommand> _validator;
+    private readonly IValidator<TRequest>? _validator;
 
-    public ValidateRegisterCommandBehavior(IValidator<RegisterCommand> validator)
+    public ValidationBehavior(IValidator<TRequest>? validator = null)
     {
         _validator = validator;
     }
 
-    public async Task<ErrorOr<AuthenticationResult>> Handle(
-        RegisterCommand request,
-        RequestHandlerDelegate<ErrorOr<AuthenticationResult>> next,
+    public async Task<TResponse> Handle(
+        TRequest request,
+        RequestHandlerDelegate<TResponse> next,
         CancellationToken cancellationToken)
     {
+        if (_validator is null)
+            return await next();
+
         var validationResult = await _validator.ValidateAsync(request, cancellationToken);
         if (validationResult.IsValid)
         {
@@ -31,6 +37,6 @@ public class ValidateRegisterCommandBehavior : IPipelineBehavior<RegisterCommand
                 validationFailure.PropertyName,
                 validationFailure.ErrorMessage));
 
-        return errors;
+        return (dynamic)errors;
     }
 }

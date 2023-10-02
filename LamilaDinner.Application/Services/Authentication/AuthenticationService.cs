@@ -3,6 +3,7 @@ using FluentResults;
 using LamilaDinner.Application.Common.Errors;
 using LamilaDinner.Application.Common.Interfaces.Authentication;
 using LamilaDinner.Application.Common.Interfaces.Persistence;
+using LamilaDinner.Application.Services.Authentication.Common;
 using LamilaDinner.Domain.Common.Errors;
 using LamilaDinner.Domain.Entities;
 

@@ -21,3 +21,4 @@ C:\Users\Boyner\Desktop\Workspaces\LamilaDinner-1\LamilaDinner.Domain\obj\Debug\
 C:\Users\Boyner\Desktop\Workspaces\LamilaDinner-1\LamilaDinner.Domain\obj\Debug\net7.0\refint\LamilaDinner.Domain.dll
 C:\Users\Boyner\Desktop\Workspaces\LamilaDinner-1\LamilaDinner.Domain\obj\Debug\net7.0\LamilaDinner.Domain.pdb
 C:\Users\Boyner\Desktop\Workspaces\LamilaDinner-1\LamilaDinner.Domain\obj\Debug\net7.0\ref\LamilaDinner.Domain.dll
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Domain\obj\Debug\net7.0\LamilaDinner.Domain.csproj.AssemblyReference.cache

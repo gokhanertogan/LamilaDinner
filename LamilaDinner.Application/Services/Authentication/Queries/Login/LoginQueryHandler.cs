@@ -6,7 +6,7 @@ using LamilaDinner.Domain.Entities;
 using LamilaDinner.Domain.Common.Errors;
 using MediatR;
 
-namespace LamilaDinner.Application.Services.Authentication.Queries;
+namespace LamilaDinner.Application.Services.Authentication.Queries.Login;
 
 public record LoginQueryHandler : IRequestHandler<LoginQuery, ErrorOr<AuthenticationResult>>
 {

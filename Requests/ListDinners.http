@@ -1,0 +1,4 @@
+
+@host=http://localhost:5116
+POST  {{host}}/dinners
+Content-Type: application/json

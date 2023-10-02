@@ -1,6 +1,6 @@
 using LamilaDinner.Application.Services.Authentication.Commands.Register;
 using LamilaDinner.Application.Services.Authentication.Common;
-using LamilaDinner.Application.Services.Authentication.Queries;
+using LamilaDinner.Application.Services.Authentication.Queries.Login;
 using LamilaDinner.Contracts.Authentication;
 using Mapster;
 

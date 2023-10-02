@@ -93,3 +93,15 @@ C:\Users\Boyner\Desktop\Workspaces\LamilaDinner-1\LamilaDinner.Api\obj\Debug\net
 C:\Users\Boyner\Desktop\Workspaces\LamilaDinner-1\LamilaDinner.Api\obj\Debug\net7.0\LamilaDinner.Api.pdb
 C:\Users\Boyner\Desktop\Workspaces\LamilaDinner-1\LamilaDinner.Api\obj\Debug\net7.0\LamilaDinner.Api.genruntimeconfig.cache
 C:\Users\Boyner\Desktop\Workspaces\LamilaDinner-1\LamilaDinner.Api\obj\Debug\net7.0\ref\LamilaDinner.Api.dll
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Api\bin\Debug\net7.0\ErrorOr.dll
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Api\bin\Debug\net7.0\FluentResults.dll
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Api\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Api\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Api\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Api\bin\Debug\net7.0\Mapster.dll
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Api\bin\Debug\net7.0\Mapster.Core.dll
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Api\bin\Debug\net7.0\Mapster.DependencyInjection.dll
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Api\bin\Debug\net7.0\MediatR.dll
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Api\bin\Debug\net7.0\MediatR.Contracts.dll
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Api\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Api\bin\Debug\net7.0\OneOf.dll
