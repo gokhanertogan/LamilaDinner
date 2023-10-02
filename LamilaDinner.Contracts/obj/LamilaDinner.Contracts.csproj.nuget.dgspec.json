@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Contracts\\LamilaDinner.Contracts.csproj": {}
+    "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Contracts\\LamilaDinner.Contracts.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Contracts\\LamilaDinner.Contracts.csproj": {
+    "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Contracts\\LamilaDinner.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Contracts\\LamilaDinner.Contracts.csproj",
+        "projectUniqueName": "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Contracts\\LamilaDinner.Contracts.csproj",
         "projectName": "LamilaDinner.Contracts",
-        "projectPath": "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Contracts\\LamilaDinner.Contracts.csproj",
+        "projectPath": "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Contracts\\LamilaDinner.Contracts.csproj",
         "packagesPath": "C:\\Users\\Monster\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Contracts\\obj\\",
+        "outputPath": "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Monster\\AppData\\Roaming\\NuGet\\NuGet.Config",

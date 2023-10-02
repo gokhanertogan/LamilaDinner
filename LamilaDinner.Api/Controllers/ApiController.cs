@@ -1,10 +1,12 @@
 using ErrorOr;
 using LamilaDinner.Api.Common.Http;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace LamilaDinner.Api.Controllers;
 
+[Authorize]
 public class ApiController : ControllerBase
 {
     protected IActionResult Problem(List<Error> errors)

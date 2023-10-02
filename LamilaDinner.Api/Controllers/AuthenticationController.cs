@@ -5,12 +5,13 @@ using LamilaDinner.Contracts.Authentication;
 using LamilaDinner.Domain.Common.Errors;
 using MapsterMapper;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LamilaDinner.Api.Controllers;
 
-[ApiController]
 [Route("auth")]
+[AllowAnonymous]
 public class AuthenticationController : ApiController
 {
     private readonly ISender _mediator;

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Api\\LamilaDinner.Api.csproj": {}
+    "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Api\\LamilaDinner.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Api\\LamilaDinner.Api.csproj": {
+    "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Api\\LamilaDinner.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Api\\LamilaDinner.Api.csproj",
+        "projectUniqueName": "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Api\\LamilaDinner.Api.csproj",
         "projectName": "LamilaDinner.Api",
-        "projectPath": "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Api\\LamilaDinner.Api.csproj",
+        "projectPath": "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Api\\LamilaDinner.Api.csproj",
         "packagesPath": "C:\\Users\\Monster\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Api\\obj\\",
+        "outputPath": "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -31,8 +31,8 @@
               "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Application\\LamilaDinner.Application.csproj": {
                 "projectPath": "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Application\\LamilaDinner.Application.csproj"
               },
-              "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Contracts\\LamilaDinner.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Contracts\\LamilaDinner.Contracts.csproj"
+              "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Contracts\\LamilaDinner.Contracts.csproj": {
+                "projectPath": "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Contracts\\LamilaDinner.Contracts.csproj"
               },
               "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Infrastructure\\LamilaDinner.Infrastructure.csproj": {
                 "projectPath": "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Infrastructure\\LamilaDinner.Infrastructure.csproj"
@@ -179,14 +179,14 @@
         }
       }
     },
-    "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Contracts\\LamilaDinner.Contracts.csproj": {
+    "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Contracts\\LamilaDinner.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Contracts\\LamilaDinner.Contracts.csproj",
+        "projectUniqueName": "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Contracts\\LamilaDinner.Contracts.csproj",
         "projectName": "LamilaDinner.Contracts",
-        "projectPath": "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Contracts\\LamilaDinner.Contracts.csproj",
+        "projectPath": "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Contracts\\LamilaDinner.Contracts.csproj",
         "packagesPath": "C:\\Users\\Monster\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Contracts\\obj\\",
+        "outputPath": "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -335,6 +335,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )"

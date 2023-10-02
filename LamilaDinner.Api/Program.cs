@@ -18,7 +18,8 @@ var app = builder.Build();
     //     Exception? exception = httpContext.Features.Get<IExceptionHandlerFeature>()?.Error;
     //     return Results.Problem();
     // });
-
+    app.UseAuthentication();
+    app.UseAuthorization();
     app.UseHttpsRedirection();
     app.MapControllers();
     app.Run();
