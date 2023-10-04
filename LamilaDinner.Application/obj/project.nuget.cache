@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9eaO7K+Cb1W6nLIwHJIqR2Po0B4+9jqElMVQLageBjq5ppVJ7O7Inut/cbZohtaG0ha8f0DvkOCLUVZYgbBzsw==",
+  "dgSpecHash": "henWB0jRW838lkKEvwKB5dOeIJX7AzUKF6QEDTOBhearbFgfEOHVgBprX8FZp5JSkPHJz2VUP8GyPfWZ3Ij55Q==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Application\\LamilaDinner.Application.csproj",
+  "projectFilePath": "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Application\\LamilaDinner.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Monster\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
     "C:\\Users\\Monster\\.nuget\\packages\\fluentresults\\3.15.2\\fluentresults.3.15.2.nupkg.sha512",

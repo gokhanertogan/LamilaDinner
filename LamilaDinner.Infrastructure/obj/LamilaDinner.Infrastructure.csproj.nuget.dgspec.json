@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Infrastructure\\LamilaDinner.Infrastructure.csproj": {}
+    "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Infrastructure\\LamilaDinner.Infrastructure.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Application\\LamilaDinner.Application.csproj": {
+    "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Application\\LamilaDinner.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Application\\LamilaDinner.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Application\\LamilaDinner.Application.csproj",
         "projectName": "LamilaDinner.Application",
-        "projectPath": "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Application\\LamilaDinner.Application.csproj",
+        "projectPath": "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Application\\LamilaDinner.Application.csproj",
         "packagesPath": "C:\\Users\\Monster\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Application\\obj\\",
+        "outputPath": "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Domain\\LamilaDinner.Domain.csproj": {
-                "projectPath": "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Domain\\LamilaDinner.Domain.csproj"
+              "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Domain\\LamilaDinner.Domain.csproj": {
+                "projectPath": "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Domain\\LamilaDinner.Domain.csproj"
               }
             }
           }
@@ -93,14 +93,14 @@
         }
       }
     },
-    "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Domain\\LamilaDinner.Domain.csproj": {
+    "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Domain\\LamilaDinner.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Domain\\LamilaDinner.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Domain\\LamilaDinner.Domain.csproj",
         "projectName": "LamilaDinner.Domain",
-        "projectPath": "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Domain\\LamilaDinner.Domain.csproj",
+        "projectPath": "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Domain\\LamilaDinner.Domain.csproj",
         "packagesPath": "C:\\Users\\Monster\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -154,14 +154,14 @@
         }
       }
     },
-    "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Infrastructure\\LamilaDinner.Infrastructure.csproj": {
+    "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Infrastructure\\LamilaDinner.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Infrastructure\\LamilaDinner.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Infrastructure\\LamilaDinner.Infrastructure.csproj",
         "projectName": "LamilaDinner.Infrastructure",
-        "projectPath": "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Infrastructure\\LamilaDinner.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Infrastructure\\LamilaDinner.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Monster\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -178,8 +178,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Application\\LamilaDinner.Application.csproj": {
-                "projectPath": "c:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Application\\LamilaDinner.Application.csproj"
+              "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Application\\LamilaDinner.Application.csproj": {
+                "projectPath": "C:\\Users\\Monster\\Desktop\\repos\\LamilaDinner\\LamilaDinner.Application\\LamilaDinner.Application.csproj"
               }
             }
           }
