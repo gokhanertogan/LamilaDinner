@@ -105,3 +105,6 @@ C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Api\bin\Debug\net7.0\Me
 C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Api\bin\Debug\net7.0\MediatR.Contracts.dll
 C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Api\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Api\bin\Debug\net7.0\OneOf.dll
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Monster\Desktop\repos\LamilaDinner\LamilaDinner.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
