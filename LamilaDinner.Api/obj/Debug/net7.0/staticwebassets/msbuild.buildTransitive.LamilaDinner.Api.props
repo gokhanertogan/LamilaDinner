@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\LamilaDinner.Api.props" />
-</Project>
