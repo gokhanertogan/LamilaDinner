@@ -475,3 +475,10 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages
