@@ -6,9 +6,9 @@ namespace LamilaDinner.Domain.MenuAggregate.Entities;
 public sealed class MenuSection : Entity<MenuSectionId>
 {
     private readonly List<MenuItem> _items = new();
-    public string Name { get; }
-    public string Description { get; }
-    IReadOnlyList<MenuItem> Items => _items.AsReadOnly();
+    public string Name { get; private set; }
+    public string Description { get; private set; }
+    public IReadOnlyList<MenuItem> Items => _items.AsReadOnly();
 
     private MenuSection(
         MenuSectionId menuSectionId,
@@ -31,4 +31,11 @@ public sealed class MenuSection : Entity<MenuSectionId>
             name,
             description, items);
     }
+
+#pragma warning disable CS8618
+    private MenuSection()
+    {
+
+    }
+#pragma warning restore CS8618
 }

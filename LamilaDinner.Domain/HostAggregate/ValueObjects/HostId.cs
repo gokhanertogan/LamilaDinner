@@ -1,18 +1,19 @@
 using LamilaDinner.Domain.Common.Models;
+using LamilaDinner.Domain.UserAggregate.ValueObjects;
 
 namespace LamilaDinner.Domain.HostAggregate.ValueObjects;
 
 public sealed class HostId : ValueObject
 {
-    public Guid Value { get; }
-    private HostId(Guid value)
+    public string Value { get; private set; }
+    private HostId(string value)
     {
         Value = value;
     }
 
     public static HostId CreateUnique()
     {
-        return new(Guid.NewGuid());
+        return new(Guid.NewGuid().ToString());
     }
 
     public override IEnumerable<object> GetEqualityComponents()
@@ -20,8 +21,12 @@ public sealed class HostId : ValueObject
         yield return Value;
     }
 
+    public static HostId Create(UserId userId)
+    {
+        return new HostId($"Host_{userId.Value}");
+    }
     public static HostId Create(string hostId)
     {
-        return new(Guid.Parse(hostId));
+        return new HostId(hostId);
     }
 }

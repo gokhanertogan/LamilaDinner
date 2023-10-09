@@ -4,8 +4,10 @@ using LamilaDinner.Application.Common.Interfaces.Persistence;
 using LamilaDinner.Application.Common.Interfaces.Services;
 using LamilaDinner.Infrastructure.Authentication;
 using LamilaDinner.Infrastructure.Persistence;
+using LamilaDinner.Infrastructure.Persistence.Repositories;
 using LamilaDinner.Infrastructure.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
@@ -56,6 +58,7 @@ public static class DependencyInjection
     public static IServiceCollection AddPersistence(
        this IServiceCollection services)
     {
+        services.AddDbContext<LamilaDinnerDbContext>(options => options.UseSqlServer());
         services.AddScoped<IUserRepository, UserRepository>();
         services.AddScoped<IMenuRepository, MenuRepository>();
 

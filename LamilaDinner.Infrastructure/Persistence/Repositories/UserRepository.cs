@@ -1,7 +1,7 @@
 using LamilaDinner.Application.Common.Interfaces.Persistence;
 using LamilaDinner.Domain.Entities;
 
-namespace LamilaDinner.Infrastructure.Persistence;
+namespace LamilaDinner.Infrastructure.Persistence.Repositories;
 
 public class UserRepository : IUserRepository
 {
