@@ -3,12 +3,13 @@ using LamilaDinner.Domain.Common.ValueObjects;
 using LamilaDinner.Domain.DinnerAggregate.ValueObjects;
 using LamilaDinner.Domain.HostAggregate.ValueObjects;
 using LamilaDinner.Domain.MenuAggregate.Entities;
+using LamilaDinner.Domain.MenuAggregate.Events;
 using LamilaDinner.Domain.MenuAggregate.ValueObjects;
 using LamilaDinner.Domain.MenuReviewAggregate.ValueObjects;
 
 namespace LamilaDinner.Domain.MenuAggregate;
 
-public sealed class Menu : AggregateRoot<MenuId>
+public sealed class Menu : AggregateRoot<MenuId, Guid>
 {
     private readonly List<MenuSection> _sections = new();
     private readonly List<DinnerId> _dinners = new();
@@ -43,19 +44,24 @@ public sealed class Menu : AggregateRoot<MenuId>
 
     public static Menu Create(string name, string description, HostId hostId, List<MenuSection> sections)
     {
-        return new(
+        var menu = new Menu(
             MenuId.CreateUnique(),
             hostId,
             name,
             description,
             AverageRating.CreateNew(),
             sections ?? new());
+
+        
+        menu.AddDomainEvent(new MenuCreated(menu));
+
+        return menu;             
     }
 
-    #pragma warning disable CS8618
-        private Menu()
-        {
+#pragma warning disable CS8618
+    private Menu()
+    {
 
-        }
-    #pragma warning restore CS8618
+    }
+#pragma warning restore CS8618
 }

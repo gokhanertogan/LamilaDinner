@@ -20,6 +20,10 @@ public class MenuConfigurations : IEntityTypeConfiguration<Menu>
 
     private static void ConfigureMenusTable(EntityTypeBuilder<Menu> builder)
     {
+        builder.ToTable("Menus");
+        
+        builder.HasKey(m=>m.Id);
+
         builder.Property(m => m.Id)
             .ValueGeneratedNever()
             .HasConversion(
