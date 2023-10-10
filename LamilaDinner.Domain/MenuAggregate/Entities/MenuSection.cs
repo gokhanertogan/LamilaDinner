@@ -14,7 +14,7 @@ public sealed class MenuSection : Entity<MenuSectionId>
         MenuSectionId menuSectionId,
         string name,
         string description,
-        List<MenuItem> items) : base(menuSectionId)
+        List<MenuItem> items) : base(menuSectionId ?? MenuSectionId.CreateUnique())
     {
         Name = name;
         Description = description;
