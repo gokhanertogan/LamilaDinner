@@ -6,7 +6,7 @@ using LamilaDinner.Domain.HostAggregate.ValueObjects;
 
 namespace LamilaDinner.Domain.BillAggregate;
 
-public sealed class Bill : AggregateRoot<BillId>
+public sealed class Bill : AggregateRoot<BillId, Guid>
 {
     public DinnerId DinnerId { get; }
     public GuestId GuestId { get; }
@@ -32,9 +32,7 @@ public sealed class Bill : AggregateRoot<BillId>
     public static Bill Create(
         GuestId guestId,
         DinnerId dinnerId,
-        HostId hostId,
-        DateTime createdDateTime,
-        DateTime updatedDateTime)
+        HostId hostId)
     {
         return new(
             BillId.CreateUnique(),

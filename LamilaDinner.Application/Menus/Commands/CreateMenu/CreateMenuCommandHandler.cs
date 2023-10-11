@@ -23,7 +23,7 @@ public class CreateMenuCommandHandler : IRequestHandler<CreateMenuCommand, Error
         var menu = Menu.Create(
         name: request.Name,
         description: request.Description,
-        hostId: HostId.Create(request.HostId),
+        hostId: HostId.Create(Guid.Parse(request.HostId)),
         sections: request.Sections.ConvertAll(section => MenuSection.Create(
             section.Name,
             section.Description,

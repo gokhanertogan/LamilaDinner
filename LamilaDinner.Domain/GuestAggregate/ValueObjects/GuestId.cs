@@ -2,9 +2,9 @@ using LamilaDinner.Domain.Common.Models;
 
 namespace LamilaDinner.Domain.GuestAggregate.ValueObjects;
 
-public sealed class GuestId : ValueObject
+public sealed class GuestId : AggregateRootId<Guid>
 {
-    public Guid Value { get; }
+    public override Guid Value { get; protected set; }
     private GuestId(Guid value)
     {
         Value = value;

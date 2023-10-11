@@ -3,17 +3,18 @@ using LamilaDinner.Domain.UserAggregate.ValueObjects;
 
 namespace LamilaDinner.Domain.HostAggregate.ValueObjects;
 
-public sealed class HostId : ValueObject
+public sealed class HostId : AggregateRootId<Guid>
 {
-    public string Value { get; private set; }
-    private HostId(string value)
+    public override Guid Value { get; protected set; }
+
+    private HostId(Guid value)
     {
         Value = value;
     }
 
     public static HostId CreateUnique()
     {
-        return new(Guid.NewGuid().ToString());
+        return new(Guid.NewGuid());
     }
 
     public override IEnumerable<object> GetEqualityComponents()
@@ -21,11 +22,20 @@ public sealed class HostId : ValueObject
         yield return Value;
     }
 
+    // public static HostId Create(UserId userId)
+    // {
+    //     return new HostId($"Host_{userId.Value}");
+    // }
+    // public static HostId Create(string hostId)
+    // {
+    //     return new HostId(hostId);
+    // }
+
     public static HostId Create(UserId userId)
     {
-        return new HostId($"Host_{userId.Value}");
+        return new HostId(userId.Value);
     }
-    public static HostId Create(string hostId)
+    public static HostId Create(Guid hostId)
     {
         return new HostId(hostId);
     }
