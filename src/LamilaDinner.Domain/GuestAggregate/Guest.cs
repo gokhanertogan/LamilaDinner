@@ -8,7 +8,7 @@ using LamilaDinner.Domain.UserAggregate.ValueObjects;
 
 namespace LamilaDinner.Domain.GuestAggregate;
 
-public sealed class Guest : AggregateRoot<GuestId>
+public sealed class Guest : AggregateRoot<GuestId, Guid>
 {
     public string FirstName { get; }
     public string LastName { get; }

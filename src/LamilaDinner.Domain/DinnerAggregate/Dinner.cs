@@ -6,7 +6,7 @@ using LamilaDinner.Domain.MenuAggregate.ValueObjects;
 
 namespace LamilaDinner.Domain.DinnerAggregate;
 
-public sealed class Dinner : AggregateRoot<DinnerId>
+public sealed class Dinner : AggregateRoot<DinnerId, Guid>
 {
     private readonly List<Reservation> _reservations = new();
 

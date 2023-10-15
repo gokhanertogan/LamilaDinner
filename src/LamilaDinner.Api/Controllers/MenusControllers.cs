@@ -1,8 +1,11 @@
 using LamilaDinner.Application.Menus.Commands.CreateMenu;
+using LamilaDinner.Application.Menus.Queries;
 using LamilaDinner.Contracts.Menus;
+using LamilaDinner.Domain.HostAggregate.ValueObjects;
 using MapsterMapper;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace LamilaDinner.Api.Controllers;
 
@@ -30,4 +33,12 @@ public class MenusControllers : ApiController
             menu => Ok(_mapper.Map<MenuResponse>(menu)),
             errors => Problem(errors));
     }
+
+    // [HttpGet]
+    // public async Task<IActionResult> GetMenus(string hostId)
+    // {
+    //     var command = new GetMenusQuery(hostId);
+    //     var menusResult = await _mediator.Send(command);
+    //     return Ok();
+    // }
 }

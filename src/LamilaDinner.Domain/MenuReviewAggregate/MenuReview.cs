@@ -7,7 +7,7 @@ using LamilaDinner.Domain.MenuReviewAggregate.ValueObjects;
 
 namespace LamilaDinner.Domain.MenuReviewAggregate;
 
-public sealed class MenuReview : AggregateRoot<MenuReviewId>
+public sealed class MenuReview : AggregateRoot<MenuReviewId, Guid>
 {
     public int Rating { get; }
     public string Comment { get; }
