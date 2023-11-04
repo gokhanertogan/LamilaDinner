@@ -1,4 +1,5 @@
 using LamilaDinner.Domain.Common.Models;
+using LamilaDinner.Domain.HostAggregate;
 using LamilaDinner.Domain.MenuAggregate;
 using LamilaDinner.Infrastructure.Persistence.Interceptors;
 using Microsoft.EntityFrameworkCore;
@@ -14,6 +15,7 @@ public class LamilaDinnerDbContext : DbContext
     }
 
     public DbSet<Menu> Menus {get;set;} = null!;
+    public DbSet<Host> Hosts {get;set;} = null!;
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

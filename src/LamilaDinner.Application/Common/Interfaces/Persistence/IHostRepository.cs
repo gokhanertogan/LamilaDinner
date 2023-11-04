@@ -1,5 +1,4 @@
 using LamilaDinner.Domain.HostAggregate;
-using LamilaDinner.Domain.MenuAggregate;
 
 namespace LamilaDinner.Application.Common.Interfaces.Persistence;
 
